@@ -14,6 +14,8 @@ An [example workflow](#example-workflow) is available below. For more informatio
 Documentation
 for [Creating a workflow file](https://help.github.com/en/articles/configuring-a-workflow#creating-a-workflow-file).
 
+Note: To add comments to a pull request, the workflow *must* have either `issues: write` or `pull-requests: write` permissions
+
 ### Inputs
 
 - `paths` - [**required**] Comma separated paths of the generated jacoco xml files (supports wildcard glob pattern)
