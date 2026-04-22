@@ -16,7 +16,7 @@ for [Creating a workflow file](https://help.github.com/en/articles/configuring-a
 
 Note: The following permissions are required for the action to run:
 - `issues: write` (or `pull-requests: write`)
-- `content: read`
+- `contents: read`
 
 ### Inputs
 
